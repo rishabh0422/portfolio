@@ -1,0 +1,230 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", serif;
+}
+body{
+  overflow: hidden;
+}
+
+h1{
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline;
+}
+/* form component css */
+.form-container{
+  width: 30vw ;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+
+input,textarea{
+  width: 90%;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  font-size: 17px;
+  padding: 8px;
+  margin: 12px;
+}
+input,textarea[placeholder]{
+  font-weight: 550;
+}
+.fields-btn{
+  position: relative;
+  left: 250px;
+}
+
+/* button component css */
+.btn{
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 7px 28px;
+  background-color: #DF6D2D;
+}
+
+/* navbar component css */
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid black;
+  margin: 5px;
+  padding: 12px;
+}
+.nav-links {
+  display: flex;
+  gap: 50px;
+}
+.nav-links a{
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+
+/* skillblock css */
+.outerspan{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.skilldetails{
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.skilldetails,.marks{
+  margin:2px 9px 0px 9px;
+}
+.skillcontainer i{
+  font-size: 32px;
+}
+.progress{
+  position: relative;
+  bottom: 4px;
+  width: 100%;
+  height: 13px;
+  padding: 2px;
+}
+
+/* skill component css */
+
+
+
+.main-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.skillcontainer {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 73px;
+}
+
+.skillpart {
+  max-width: 600px;
+}
+.skill-cont{
+  width: 100%;
+}
+.skillpart h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.img-container {
+  max-width: 400px;
+}
+
+.img-container .img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* about component css */
+
+.about-discription{
+  max-width: 600px;
+}
+
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.about-img img {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.about-description {
+  max-width: 600px;
+}
+
+.about-description h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-description p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* home component css */
+
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.home-content {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.name-highlight {
+  color: #DF6D2D;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+}
+
+
+.btn:hover {
+  background-color: #c45210;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.home-image img {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+  background: #DF6D2D;
+  padding: 20px;
+}
+
+
+/* media query for respossivness */
+
