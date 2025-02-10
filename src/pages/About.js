@@ -5,7 +5,7 @@ import imgsrc from '../images/rishabh.png'
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      <h1>Abouts</h1>
       <div class="about-container">
         <div class="about-img">
           <img src={imgsrc} alt=""/>
